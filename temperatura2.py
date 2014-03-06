@@ -44,7 +44,7 @@ for elemento in lista_ciudades:
 	temp_max.append(int(diccionario_json["main"]["temp_max"] - 273))
 	veloc_viento.append(int(diccionario_json["wind"]["speed"]*1.6))
 	direc_viento.append(direccion_viento(diccionario_json["wind"]["deg"]))
-	print elemento
+	
 for linea in f:
 	html += linea
 
